@@ -1,0 +1,21 @@
+.suica {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(../../assets/Img/Suiça.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.suica_h1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+    color: lightseagreen;
+}

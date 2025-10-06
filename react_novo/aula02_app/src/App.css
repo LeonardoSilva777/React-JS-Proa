@@ -1,0 +1,16 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}*/
+
+
+.principal{ 
+  position: relative;
+  width: 95%;
+  height: 700px;
+  background-color: aquamarine;
+  margin: auto;
+  text-align: center;
+}
