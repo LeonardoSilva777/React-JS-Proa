@@ -1,7 +1,8 @@
 main { 
   width: 95%;
   height: auto;
-  background-color: rgb(231, 119, 119);
+  background-image: url(assets/imagens/guitarra_fundo_body.jpg);
+  background-repeat: no-repeat;
   margin: auto;
   font-family: Verdana;
 }

@@ -1,24 +1,41 @@
 
 .vermelho {
-    width: 100%;
+    width: 95%;
     height: 360px;
     background-color: red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-left: 30px;
     margin-bottom: 15px;
+
+    & .rosa {
+        background-color: rgba(236, 193, 145, 0.52);
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: start;
+    }
+
+    & img {
+        width: 42%;
+        object-fit: cover;
+    }
+
+    & h1 {
+        color: white;
+        
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        color: white;
+        font-size: 17.5px;
+        
+    }
 }
 
 
-.rosa {
-    width: 45%;
-    height: 290px;
-    background-color: lightpink;
-    margin-bottom: 30px;
-}
-
-.rosa p {
-    margin-top: 30px;
-    margin-left: 20px;
-}
